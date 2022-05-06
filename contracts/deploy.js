@@ -6,6 +6,8 @@ const abi = contractFile.abi;
 const bytecode = contractFile.evm.bytecode.object;
 
 const provider = new HDWalletProvider(
+	// "APP_METAMASK_CODE": "pluck when exercise enforce random knee peace abstract survey during stay code",
+	// "APP_INFURA_ROPSTEN_URL": "https://ropsten.infura.io/v3/3dae85a4293e49a198ccd310221001e9"
 	process.APP_METAMASK_CODE,
 	// remember to change this to your own phrase!
 	/* This is the endpoint of the node that we are using to deploy our contract. */

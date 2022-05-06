@@ -1,6 +1,8 @@
 import web3 from './web3';
 
-const address = process.env.APP_CONTRACT_ADDRESS;
+
+const address = '0x3f2F777293303Cc5603419a07bAcf39763754BDD';
+
 
 const abi = [
 	{ inputs: [], stateMutability: 'nonpayable', type: 'constructor' },
